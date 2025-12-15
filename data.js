@@ -21,7 +21,7 @@ const graffitiData = [
     theme: "뚱뚱글자",
     messageText: "왜! 이렇게 약국이 많은가요?",
     year: 2025,
-    imageUrl: "image/통통/배너_야외_1598.png",
+    imageUrl: "image/통통/1.png",
   },
   {
     id: "3",
