@@ -8,7 +8,7 @@ const graffitiData = [
     doodleType: "스프레이 그래피티", // e.g. Marker doodle / Sticker / Paste-up / Spray graffiti
     messageText: "부모님 말씀을 잘 듣잣",
     year: 2023,
-    imageUrl: "image/그래피티/7_1.jpg",
+    imageUrl: "image/그래피티/7_11.jpg",
   },
   {
     id: "2",
