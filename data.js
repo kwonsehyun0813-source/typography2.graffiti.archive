@@ -14,7 +14,6 @@ const graffitiData = [
     id: "2",
     city: "서울",
     locationLabel: "서울대입구 약국 앞 배너",
-    coordinates: null,
     messageType: "불만",
  
     doodleType: "마커 낙서",
