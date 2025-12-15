@@ -8,19 +8,20 @@ const graffitiData = [
     doodleType: "스프레이 그래피티", // e.g. Marker doodle / Sticker / Paste-up / Spray graffiti
     messageText: "부모님 말씀을 잘 듣잣",
     year: 2023,
-    imageUrl: "image/그래피티/7_11.jpg",
+    imageUrl: "image/그래피티/B1.jpg",
   },
   {
     id: "2",
     city: "서울",
     locationLabel: "서울대입구 약국 앞 배너",
+    coordinates: null,
     messageType: "불만",
  
     doodleType: "마커 낙서",
     theme: "뚱뚱글자",
     messageText: "왜! 이렇게 약국이 많은가요?",
     year: 2025,
-    imageUrl: "image/통통/1.png",
+    imageUrl: "image/통통/J16.png",
   },
   {
     id: "3",
@@ -33,7 +34,7 @@ const graffitiData = [
     messageText: "고맙습니다!",
     theme: "무인정산기",
     year: 2025,
-    imageUrl: "image/무인정산기/무인정산기_야외_1541 2.png",
+    imageUrl: "image/무인정산기/F1.png",
   },
  {
     id: "4",
@@ -46,7 +47,7 @@ const graffitiData = [
     theme: "뚱뚱글자",
     messageText: "애기가 자라고 있으니 재미있게 놀길 바람니다!?",
     year: 2025,
-    imageUrl: "image/통통/벽_야외_1549 2.png",
+    imageUrl: "image/통통/J17.png",
   },
   {
     id: "5",
@@ -59,7 +60,7 @@ const graffitiData = [
     theme: "뚱뚱글자",
     messageText: "그레도 오죽했을까요!",
     year: 2025,
-    imageUrl: "image/통통/벽_야외_1.png",
+    imageUrl: "image/통통/J23.png",
   },
   {
     id: "6",
@@ -71,7 +72,7 @@ const graffitiData = [
     doodleType: "마커 낙서",
     messageText: "자축인묘진사요미신유못해, 너나 잘해",
     year: 2025,
-    imageUrl: "image/기타/벽_야외_1552 2.png",
+    imageUrl: "image/기타/C10.png",
 
 
   },
@@ -86,7 +87,7 @@ const graffitiData = [
     messageText: "공사장 가벽의 낙서들 1",
     theme: "공사장 가벽",
     year: 2024,
-    imageUrl: "image/공사장/벽_야외_1676 2.png",
+    imageUrl: "image/공사장/A2.png",
   },
   {
     id: "8",
@@ -98,7 +99,7 @@ const graffitiData = [
     doodleType: "Paint doodle",
     messageText: "공사장 가벽의 낙서들 2",
     year: 2023,
-    imageUrl: "image/공사장/벽_야외_1677 2.png",
+    imageUrl: "image/공사장/A3.png",
   },
   {
     id: "9",
@@ -109,7 +110,7 @@ const graffitiData = [
     doodleType: "Pencil Sketch",
     messageText: " 파 라",
     year: 2022,
-    imageUrl: "image/공사장/벽_야외_1679 2.png",
+    imageUrl: "image/공사장/A5.png",
   },
  {
     id: "10",
@@ -120,66 +121,66 @@ const graffitiData = [
     doodleType: "Glue Residue",
     messageText: "그러면 도대체",
     year: 2022,
-    imageUrl: "image/공사장/벽_야외_1678 2.png",
+    imageUrl: "image/공사장/A4.png",
   },
   {
     id: "11",
     city: "서울",
-    locationLabel: "Subway passage corner",
+    locationLabel: "서울대입구 공사장 가벽",
     coordinates: null,
     messageType: "Random",
  
     doodleType: "Sticker",
     messageText: "니가 그렇게 했기 때문에 검사 불기소",
     year: 2023,
-    imageUrl: "image/공사장/벽_야외_1681 2.png",
+    imageUrl: "image/공사장/A6.png",
   },
   {
     id: "12",
     city: "서울",
-    locationLabel: "Gongguan bridge pillar",
+    locationLabel: "서울대입구 공사장 가벽",
     coordinates: null,
     messageType: "Encouraging",
  
     doodleType: "Spray graffiti",
     messageText: "조금 과 적당히",
     year: 2021,
-    imageUrl: "image/공사장/벽_야외_1682 2.png",
+    imageUrl: "image/공사장/A7.png",
   },
   {
     id: "13",
     city: "서울",
-    locationLabel: "Vintage arcade stairwell",
+    locationLabel: "서울대입구 공사장 가벽",
     coordinates: null,
     messageType: "Playful",
     doodleType: "Marker doodle",
     messageText: "우, 담합은 하지마시길",
     year: 2022,
-    imageUrl: "image/공사장/벽_야외_1683 2.png",
+    imageUrl: "image/공사장/A8.png",
   },
     {
     id: "14",
     city: "서울",
-    locationLabel: "Gongguan bridge pillar",
+    locationLabel: "서울대입구 공사장 가벽",
     coordinates: null,
     messageType: "Encouraging",
  
     doodleType: "Spray graffiti",
     messageText: "안전 명심",
     year: 2021,
-    imageUrl: "image/공사장/벽_야외_1684 2.png",
+    imageUrl: "image/공사장/A9.png",
   },
     {
     id: "15",
     city: "서울",
-    locationLabel: "Gongguan bridge pillar",
+    locationLabel: "서울대입구 공사장 가벽",
     coordinates: null,
     messageType: "Encouraging",
  
     doodleType: "Spray graffiti",
     messageText: "아무리 어쨋튼 어련히 그러니까, 알고보니 똑같은 언어로 다툰이.",
     year: 2021,
-    imageUrl: "image/공사장/벽_야외_1685 2.png",
+    imageUrl: "image/공사장/A10.png",
   },
     {
     id: "16",
@@ -191,7 +192,7 @@ const graffitiData = [
     doodleType: "Spray graffiti",
     messageText: "<span class='hanja-fallback'>休</span>(휴) <span class='hanja-fallback'>忍仁人</span>(인인인)",
     year: 2021,
-    imageUrl: "image/공사장/벽_야외_1686 2.png",
+    imageUrl: "image/공사장/A11.png",
   },
     {
     id: "17",
@@ -202,8 +203,68 @@ const graffitiData = [
  
     doodleType: "Spray graffiti",
     messageText: "열심히 일하고",
-    year: 2021,
-    imageUrl: "image/공사장/벽_야외_1687 3.png",
+    year: 2025,
+    imageUrl: "image/공사장/A12.png",
+  },
+      {
+    id: "17a",
+    city: "서울",
+    locationLabel: "Gongguan bridge pillar",
+    coordinates: null,
+    messageType: "Encouraging",
+ 
+    doodleType: "Spray graffiti",
+    messageText: "어차피 Games ov-r",
+    year: 2025,
+    imageUrl: "image/공사장/A23.png",
+  },
+      {
+    id: "17b",
+    city: "서울",
+    locationLabel: "Gongguan bridge pillar",
+    coordinates: null,
+    messageType: "Encouraging",
+ 
+    doodleType: "Spray graffiti",
+    messageText: "아ㅍ 노파심",
+    year: 2025,
+    imageUrl: "image/공사장/A22.png",
+  },
+      {
+    id: "17c",
+    city: "서울",
+    locationLabel: "Gongguan bridge pillar",
+    coordinates: null,
+    messageType: "Encouraging",
+ 
+    doodleType: "Spray graffiti",
+    messageText: "진드기 조심",
+    year: 2025,
+    imageUrl: "image/공사장/A21.png",
+  },
+        {
+    id: "17d",
+    city: "서울",
+    locationLabel: "Gongguan bridge pillar",
+    coordinates: null,
+    messageType: "Encouraging",
+ 
+    doodleType: "Spray graffiti",
+    messageText: "고맙습니다 귀주대첩 덕분에!",
+    year: 2025,
+    imageUrl: "image/공사장/A20.png",
+  },
+  {
+    id: "17e",
+    city: "서울",
+    locationLabel: "Gongguan bridge pillar",
+    coordinates: null,
+    messageType: "Encouraging",
+ 
+    doodleType: "Spray graffiti",
+    messageText: "밥은(먹)드시고 하세요",
+    year: 2025,
+    imageUrl: "image/공사장/A18.png",
   },
     {
     id: "18",
@@ -228,7 +289,7 @@ const graffitiData = [
     messageText: "맛있으니 걱정 끝! :), 고마워요~",
         theme: "뚱뚱글자",
     year: 2021,
-    imageUrl: "image/통통/벽_야외_1689 3.png",
+    imageUrl: "image/통통/J21.png",
   },
     {
     id: "21",
@@ -240,7 +301,7 @@ const graffitiData = [
     doodleType: "Spray graffiti",
     messageText: "신토불이",
     year: 2021,
-    imageUrl: "image/공사장/벽_야외_1954 2.png",
+    imageUrl: "image/공사장/A13.png",
   },
     {
     id:  "22",
@@ -252,7 +313,7 @@ const graffitiData = [
     doodleType: "스프레이 그래피티",
     messageText: "sex",
     year: 2021,
-    imageUrl: "image/기타/벽_야외_4563 2.png",
+    imageUrl: "image/기타/C11.png",
   },
     {
     id: "23",
@@ -264,7 +325,7 @@ const graffitiData = [
     doodleType: "스티커",
     messageText: "가장 빛나는 별은 아직 발견되지 않은 ㄹ",
     year: 2021,
-    imageUrl: "image/기타/벽_야외_4760 2.png",
+    imageUrl: "image/기타/C12.png",
   },
  {
     id:  "24",
@@ -277,7 +338,7 @@ const graffitiData = [
     messageText: "손해주 바보",
         theme: "벽돌벽",
     year: 2021,
-    imageUrl: "image/벽돌벽/벽_야외_9338 2.png",
+    imageUrl: "image/벽돌벽/G1.png",
   },
       {
     id:  "25",
@@ -289,7 +350,7 @@ const graffitiData = [
     doodleType: "Spray graffiti",
     messageText: "샤낙서",
     year: 2021,
-    imageUrl: "image/기타/샤구조물_야외_서울대학교_0182 2.png",
+    imageUrl: "image/기타/C13.png",
   },
       {
     id:   "26",
@@ -301,7 +362,7 @@ const graffitiData = [
     doodleType: "Spray graffiti",
     messageText: "쓰레기 버리시면 양심도 버려진다",
     year: 2021,
-    imageUrl: "image/기타/컨테이너_야외_5498 2.png",
+    imageUrl: "image/기타/C14.png",
   },
       {
     id: "27",
@@ -313,7 +374,7 @@ const graffitiData = [
     doodleType: "Spray graffiti",
     messageText: "화장실 낙서 1",
     year: 2021,
-    imageUrl: "image/기타/화장실_실내_서울대학교_1624 2.png",
+    imageUrl: "image/기타/C16.png",
   },
       {
     id:   "28",
@@ -325,7 +386,7 @@ const graffitiData = [
     doodleType: "Spray graffiti",
     messageText: "화장실 낙서 2",
     year: 2021,
-    imageUrl: "image/기타/화장실_실내_서울대학교_1625 2.png",
+    imageUrl: "image/기타/C17.png",
   },
       {
     id:  "29",
@@ -337,7 +398,7 @@ const graffitiData = [
     doodleType: "Spray graffiti",
     messageText: "화장실 낙서 3",
     year: 2021,
-    imageUrl: "image/기타/화장실_실내_서울대학교_1956.png",
+    imageUrl: "image/기타/C18.png",
   },
       {
     id:  "30",
@@ -361,7 +422,7 @@ const graffitiData = [
     doodleType: "Spray graffiti",
     messageText: "BASASA",
     year: 2021,
-    imageUrl: "image/그래피티/그래피티_벽_야외_2025-11-17-14-44-56 005.jpeg",
+    imageUrl: "image/그래피티/B5.jpg",
   },
       {
     id:  "32",
@@ -373,7 +434,7 @@ const graffitiData = [
     doodleType: "Spray graffiti",
     messageText: "갑질하냐",
     year: 2021,
-    imageUrl: "image/공사장/벽_야외_1599 2.png",
+    imageUrl: "image/공사장/A1.png",
   },
       {
     id:  "33",
@@ -385,7 +446,7 @@ const graffitiData = [
     doodleType: "Spray graffiti",
     messageText: "공사장 가벽 그래피티",
     year: 2021,
-    imageUrl: "image/그래피티/벽_그래피티_벽_야외_2025-11-17-14-44-55 004.jpeg",
+    imageUrl: "image/그래피티/B19.jpeg",
   },
       {
     id:   "34",
@@ -397,7 +458,7 @@ const graffitiData = [
     doodleType: "Spray graffiti",
     messageText: "화장실 낙서 4",
     year: 2021,
-    imageUrl: "image/기타/그래피티_화장실_실내_6395 2.png",
+    imageUrl: "image/그래피티/B17.png",
   },
       {
     id:  "35",
@@ -409,7 +470,7 @@ const graffitiData = [
     doodleType: "Spray graffiti",
     messageText: "SUPERIOR 1",
     year: 2021,
-    imageUrl: "image/그래피티/그래피티_벽_야외_1234 2.png",
+    imageUrl: "image/그래피티/B3.png",
   },
       {
     id:  "36",
@@ -421,7 +482,7 @@ const graffitiData = [
     doodleType: "Spray graffiti",
     messageText: "SUPERIOR 2",
     year: 2021,
-    imageUrl: "image/그래피티/그래피티_벽_야외_1242 2.png",
+    imageUrl: "image/그래피티/B4.png",
   },
       {
     id: "37",
@@ -433,7 +494,7 @@ const graffitiData = [
     doodleType: "Spray graffiti",
     messageText: "벽 그래피티",
     year: 2021,
-    imageUrl: "image/그래피티/그래피티_벽_야외_7204 2.png",
+    imageUrl: "image/그래피티/B6.png",
   },
       {
     id: "38",
@@ -445,7 +506,7 @@ const graffitiData = [
     doodleType: "Spray graffiti",
     messageText: "후쿠오카 낙서",
     year: 2021,
-    imageUrl: "image/그래피티/그래피티_벽_야외_7583 3.png",
+    imageUrl: "image/그래피티/B7.png",
   },
       {
     id:  "39",
@@ -457,7 +518,7 @@ const graffitiData = [
     doodleType: "Spray graffiti",
     messageText: "문대의 장난꾸러기",
     year: 2021,
-    imageUrl: "image/그래피티/그래피티_벽_야외_9421 2.png",
+    imageUrl: "image/그래피티/B8.png",
   },
       {
     id: "40",
@@ -469,7 +530,7 @@ const graffitiData = [
     doodleType: "Spray graffiti",
     messageText: "october",
     year: 2021,
-    imageUrl: "image/그래피티/그래피티_벽_야외_9422 2.png",
+    imageUrl: "image/그래피티/B9.png",
   },
       {
     id: "41",
@@ -481,7 +542,7 @@ const graffitiData = [
     doodleType: "Spray graffiti",
     messageText: "doxa",
     year: 2021,
-    imageUrl: "image/그래피티/그래피티_벽_야외_9424 2.png",
+    imageUrl: "image/그래피티/B10.png",
   },
       {
     id: "42",
@@ -493,7 +554,7 @@ const graffitiData = [
     doodleType: "Spray graffiti",
     messageText: "국어국문",
     year: 2021,
-    imageUrl: "image/그래피티/그래피티_벽_야외_9429 3.png",
+    imageUrl: "image/그래피티/B11.png",
   },
       {
     id:  "43",
@@ -505,7 +566,7 @@ const graffitiData = [
     doodleType: "Spray graffiti",
     messageText: "발버둥^^*",
     year: 2021,
-    imageUrl: "image/그래피티/그래피티_벽_야외_9430 2.png",
+    imageUrl: "image/그래피티/B12.png",
   },
       {
     id: "44",
@@ -517,7 +578,7 @@ const graffitiData = [
     doodleType: "Spray graffiti",
     messageText: "인형과 낙서",
     year: 2021,
-    imageUrl: "image/그래피티/그래피티_변압기_야외_2472 2.png",
+    imageUrl: "image/그래피티/B13.png",
   },
       {
     id:  "45",
@@ -529,7 +590,7 @@ const graffitiData = [
     doodleType: "Spray graffiti",
     messageText: "푸미흥 변압기 낙서",
     year: 2021,
-    imageUrl: "image/그래피티/그래피티_변압기_야외_5877 2.png",
+    imageUrl: "image/그래피티/B14.png",
   },
       {
     id:  "46",
@@ -540,8 +601,8 @@ const graffitiData = [
  
     doodleType: "Spray graffiti",
     messageText: "자유의지",
-    year: 2021,
-    imageUrl: "image/그래피티/그래피티_변압기_야외_7687 2.png",
+    year: 2025,
+    imageUrl: "image/그래피티/B15.png",
   },
       {
     id: "47",
@@ -552,8 +613,44 @@ const graffitiData = [
  
     doodleType: "Spray graffiti",
     messageText: "타이베이 신호등 낙서",
-    year: 2021,
-    imageUrl: "image/그래피티/그래피티_신호등_야외_6501 3.png",
+    year: 2025,
+    imageUrl: "image/그래피티/B16.png",
+  },
+        {
+    id:  "47a",
+    city: "서울",
+    locationLabel: "Gongguan bridge pillar",
+    coordinates: null,
+    messageType: "Encouraging",
+ 
+    doodleType: "Spray graffiti",
+    messageText: "서울대입구 그래피티",
+    year: 2025,
+    imageUrl: "image/그래피티/B26.png",
+  },
+          {
+    id:  "47b",
+    city: "서울",
+    locationLabel: "Gongguan bridge pillar",
+    coordinates: null,
+    messageType: "Encouraging",
+ 
+    doodleType: "Spray graffiti",
+    messageText: "매롱과 태그",
+    year: 2025,
+    imageUrl: "image/그래피티/B27.png",
+  },
+            {
+    id:  "47c",
+    city: "서울",
+    locationLabel: "Gongguan bridge pillar",
+    coordinates: null,
+    messageType: "Encouraging",
+ 
+    doodleType: "Spray graffiti",
+    messageText: "부추삼겹살 그래피티",
+    year: 2025,
+    imageUrl: "image/그래피티/B28.png",
   },
       {
     id: "48",
@@ -566,7 +663,7 @@ const graffitiData = [
     messageText: "놀이터 1",
     theme: "요즘 아이들",
     year: 2025,
-    imageUrl: "image/놀이터/글씨_놀이터_성현동아아파트_132성현동아아파트_1 2.png",
+    imageUrl: "image/놀이터/D1.png",
   },
       {
     id: "49",
@@ -578,7 +675,7 @@ const graffitiData = [
     doodleType: "마커 낙서",
     messageText: "놀이터 2",
     year: 2025,
-    imageUrl: "image/놀이터/글씨_놀이터_성현동아아파트_133성현동아아파트_1 2.png",
+    imageUrl: "image/놀이터/D2.png",
   },
       {
     id:  "50",
@@ -590,7 +687,7 @@ const graffitiData = [
     doodleType: "마커 낙서",
     messageText: "놀이터 3",
     year: 2025,
-    imageUrl: "image/놀이터/글씨_놀이터_성현동아아파트_136성현동아아파트_1 2.png",
+    imageUrl: "image/놀이터/D3.png",
   },
       {
     id: "51",
@@ -603,7 +700,7 @@ const graffitiData = [
     messageText: "놀이터 4",
         theme: "요즘 아이들",
     year: 2025,
-    imageUrl: "image/놀이터/글씨_놀이터_성현동아아파트_137성현동아아파트_1 2.png",
+    imageUrl: "image/놀이터/D4.png",
   },
       {
     id: "52",
@@ -616,7 +713,7 @@ const graffitiData = [
     messageText: "놀이터 5",
         theme: "요즘 아이들",
     year: 2025,
-    imageUrl: "image/놀이터/글씨_놀이터_성현동아아파트_139성현동아아파트_1 2.png",
+    imageUrl: "image/놀이터/D5.png",
   },
       {
     id:  "53",
@@ -629,7 +726,9 @@ const graffitiData = [
     messageText: "놀이터 6",
             theme: "요즘 아이들",
     year: 2025,
-    imageUrl: "image/놀이터/글씨_놀이터_성현동아아파트_1260 2.png",
+        imageUrl: "image/놀이터/D6.png",
+
+
   },
       {
     id: "54",
@@ -642,7 +741,8 @@ const graffitiData = [
     messageText: "놀이터 7",
             theme: "요즘 아이들",
     year: 2025,
-    imageUrl: "image/놀이터/글씨_놀이터_성현동아아파트_1266 2.png",
+        imageUrl: "image/놀이터/D7.png",
+
   },
     {
     id: "55",
@@ -655,7 +755,8 @@ const graffitiData = [
     messageText: "놀이터 8",
             theme: "요즘 아이들",
     year: 2025,
-    imageUrl: "image/놀이터/글씨_놀이터_성현동아아파트_1267 2.png",
+        imageUrl: "image/놀이터/D8.png",
+
   },
       {
     id: "56",
@@ -668,7 +769,8 @@ const graffitiData = [
     messageText: "놀이터 9",
             theme: "요즘 아이들",
     year: 2025,
-    imageUrl: "image/놀이터/글씨_놀이터_성현동아아파트_1268 2.png",
+        imageUrl: "image/놀이터/D9.png",
+
   },
       {
     id:  "57",
@@ -681,7 +783,8 @@ const graffitiData = [
     messageText: "놀이터 10",
             theme: "요즘 아이들",
     year: 2025,
-    imageUrl: "image/놀이터/글씨_놀이터_성현동아아파트_1269 2.png",
+        imageUrl: "image/놀이터/D10.png",
+
   },
       {
     id: "58",
@@ -694,7 +797,8 @@ const graffitiData = [
     messageText: "놀이터 11",
             theme: "요즘 아이들",
     year: 2025,
-    imageUrl: "image/놀이터/글씨_놀이터_성현동아아파트_1273 2.png",
+        imageUrl: "image/놀이터/D11.png",
+
   },
       {
     id:   "59",
@@ -707,7 +811,7 @@ const graffitiData = [
     messageText: "놀이터 12",
             theme: "요즘 아이들",
     year: 2025,
-    imageUrl: "image/놀이터/글씨_놀이터_성현동아아파트_1278 2.png",
+    imageUrl: "image/놀이터/D12.png",
   },
       {
     id:   "60",
@@ -720,7 +824,7 @@ const graffitiData = [
     messageText: "놀이터 13",
             theme: "요즘 아이들",
     year: 2025,
-    imageUrl: "image/놀이터/글씨_놀이터_성현동아아파트_1280 2.png",
+    imageUrl: "image/놀이터/D13.png",
   },
       {
     id:   "61",
@@ -730,10 +834,10 @@ const graffitiData = [
     messageType: "Encouraging",
  
     doodleType: "마커 낙서",
-    messageText: "놀이터 1",
+    messageText: "놀이터 14",
             theme: "요즘 아이들",
     year: 2025,
-    imageUrl: "image/놀이터/글씨_놀이터_성현동아아파트_1282 2.png",
+    imageUrl: "image/놀이터/D14.png",
   },
     {
     id: "62",
@@ -743,9 +847,9 @@ const graffitiData = [
     messageType: "Encouraging",
  
     doodleType: "마커 낙서",
-    messageText: "놀이터 1",
+    messageText: "놀이터 15",
     year: 2025,
-    imageUrl: "image/놀이터/글씨_놀이터_성현동아아파트_1322 2.png",
+    imageUrl: "image/놀이터/D15.png",
   },
       {
     id: "63",
@@ -755,9 +859,9 @@ const graffitiData = [
     messageType: "Encouraging",
  
     doodleType: "마커 낙서",
-    messageText: "놀이터 1",
+    messageText: "놀이터 16",
     year: 2025,
-    imageUrl: "image/놀이터/글씨_놀이터_성현동아아파트_1323 2.png",
+    imageUrl: "image/놀이터/D16.png",
   },
       {
     id:  "64",
@@ -767,9 +871,9 @@ const graffitiData = [
     messageType: "Encouraging",
  
     doodleType: "마커 낙서",
-    messageText: "놀이터 1",
+    messageText: "놀이터 17",
     year: 2025,
-    imageUrl: "image/놀이터/글씨_놀이터_성현동아아파트_1324 2.png",
+    imageUrl: "image/놀이터/D17.png",
   },
       {
     id: "65",
@@ -779,9 +883,9 @@ const graffitiData = [
     messageType: "Encouraging",
  
     doodleType: "마커 낙서",
-    messageText: "놀이터 1",
+    messageText: "놀이터 18",
     year: 2025,
-    imageUrl: "image/놀이터/글씨_놀이터_성현동아아파트_1328 2.png",
+    imageUrl: "image/놀이터/D18.png",
   },
       {
     id: "66",
@@ -791,9 +895,9 @@ const graffitiData = [
     messageType: "Encouraging",
  
     doodleType: "마커 낙서",
-    messageText: "놀이터 1",
+    messageText: "놀이터 19",
     year: 2025,
-    imageUrl: "image/놀이터/글씨_놀이터_성현동아아파트_1330 2.png",
+    imageUrl: "image/놀이터/D19.png",
   },
       {
     id:  "67",
@@ -803,9 +907,9 @@ const graffitiData = [
     messageType: "Encouraging",
  
     doodleType: "마커 낙서",
-    messageText: "놀이터 1",
+    messageText: "놀이터 20",
     year: 2025,
-    imageUrl: "image/놀이터/글씨_놀이터_성현동아아파트_1334 2.png",
+    imageUrl: "image/놀이터/D20.png",
   },
       {
     id:   "68",
@@ -815,9 +919,9 @@ const graffitiData = [
     messageType: "Encouraging",
  
     doodleType: "마커 낙서",
-    messageText: "놀이터 1",
+    messageText: "놀이터 21",
     year: 2025,
-    imageUrl: "image/놀이터/글씨_놀이터_성현동아아파트_1335 2.png",
+    imageUrl: "image/놀이터/D21.png",
   },
     {
     id: "69",
@@ -827,9 +931,9 @@ const graffitiData = [
     messageType: "Encouraging",
  
     doodleType: "마커 낙서",
-    messageText: "놀이터 1",
+    messageText: "놀이터 22",
     year: 2025,
-    imageUrl: "image/놀이터/글씨_놀이터_성현동아아파트_1336 2.png",
+    imageUrl: "image/놀이터/D22.png",
   },
       {
     id: "70",
@@ -839,9 +943,9 @@ const graffitiData = [
     messageType: "Encouraging",
  
     doodleType: "마커 낙서",
-    messageText: "놀이터 1",
+    messageText: "놀이터 23",
     year: 2025,
-    imageUrl: "image/놀이터/글씨_놀이터_성현동아아파트_1338 2.png",
+    imageUrl: "image/놀이터/D23.png",
   },
       {
     id:   "71",
@@ -851,9 +955,9 @@ const graffitiData = [
     messageType: "Encouraging",
  
     doodleType: "마커 낙서",
-    messageText: "놀이터 1",
+    messageText: "놀이터 24",
     year: 2025,
-    imageUrl: "image/놀이터/글씨_놀이터_성현동아아파트_1343 2.png",
+    imageUrl: "image/놀이터/D24.png",
   },
       {
     id:   "72",
@@ -863,9 +967,9 @@ const graffitiData = [
     messageType: "Encouraging",
  
     doodleType: "마커 낙서",
-    messageText: "놀이터 1",
+    messageText: "놀이터 25",
     year: 2025,
-    imageUrl: "image/놀이터/글씨_놀이터_성현동아아파트_1347 2.png",
+    imageUrl: "image/놀이터/D25.png",
   },
       {
     id:   "73",
@@ -876,9 +980,9 @@ const graffitiData = [
     messageType: "Encouraging",
  
     doodleType: "마커 낙서",
-    messageText: "놀이터 1",
+    messageText: "놀이터 26",
     year: 2025,
-    imageUrl: "image/놀이터/글씨_놀이터_성현동아아파트_1355 2.png",
+    imageUrl: "image/놀이터/D26.png",
   },
       {
     id:   "74",
@@ -888,9 +992,9 @@ const graffitiData = [
     messageType: "Encouraging",
  
     doodleType: "마커 낙서",
-    messageText: "놀이터 1",
+    messageText: "놀이터 27",
     year: 2025,
-    imageUrl: "image/놀이터/글씨_놀이터_성현동아아파트_1357 2.png",
+    imageUrl: "image/놀이터/D27.png",
   },
       {
     id: "75",
@@ -900,9 +1004,9 @@ const graffitiData = [
     messageType: "Encouraging",
  
     doodleType: "마커 낙서",
-    messageText: "놀이터 1",
+    messageText: "놀이터 28",
     year: 2025,
-    imageUrl: "image/놀이터/글씨_놀이터_성현동아아파트_1358 2.png",
+    imageUrl: "image/놀이터/D28.png",
   },
     {
     id:   "76",
@@ -912,9 +1016,9 @@ const graffitiData = [
     messageType: "Encouraging",
  
     doodleType: "마커 낙서",
-    messageText: "놀이터 1",
+    messageText: "놀이터 29",
     year: 2025,
-    imageUrl: "image/놀이터/글씨_놀이터_성현동아아파트_1360 2.png",
+    imageUrl: "image/놀이터/D29.png",
   },
       {
     id:   "77",
@@ -924,9 +1028,9 @@ const graffitiData = [
     messageType: "Encouraging",
  
     doodleType: "마커 낙서",
-    messageText: "놀이터 1",
+    messageText: "놀이터 30",
     year: 2025,
-    imageUrl: "image/놀이터/글씨_놀이터_성현동아아파트_1362 2.png",
+    imageUrl: "image/놀이터/D30.png",
   },
       {
     id:   "78",
@@ -936,9 +1040,9 @@ const graffitiData = [
     messageType: "Encouraging",
  
     doodleType: "마커 낙서",
-    messageText: "놀이터 1",
+    messageText: "놀이터 31",
     year: 2025,
-    imageUrl: "image/놀이터/글씨_놀이터_성현동아아파트_1364 2.png",
+    imageUrl: "image/놀이터/D31.png",
   },
       {
     id:  "79",
@@ -948,9 +1052,9 @@ const graffitiData = [
     messageType: "Encouraging",
  
     doodleType: "마커 낙서",
-    messageText: "놀이터 1",
+    messageText: "놀이터 32",
     year: 2025,
-    imageUrl: "image/놀이터/글씨_놀이터_성현동아아파트_1365 2.png",
+    imageUrl: "image/놀이터/D32.png",
   },
       {
     id: "80",
@@ -960,9 +1064,9 @@ const graffitiData = [
     messageType: "Encouraging",
  
     doodleType: "마커 낙서",
-    messageText: "놀이터 1",
+    messageText: "놀이터 33",
     year: 2025,
-    imageUrl: "image/놀이터/글씨_놀이터_성현동아아파트_1368 2.png",
+    imageUrl: "image/놀이터/D33.png",
   },
       {
     id:  "81",
@@ -972,9 +1076,9 @@ const graffitiData = [
     messageType: "Encouraging",
  
     doodleType: "마커 낙서",
-    messageText: "놀이터 1",
+    messageText: "놀이터 34",
     year: 2025,
-    imageUrl: "image/놀이터/글씨_놀이터_성현동아아파트_1369 3.png",
+    imageUrl: "image/놀이터/D34.png",
   },
       {
     id: "82",
@@ -984,9 +1088,9 @@ const graffitiData = [
     messageType: "Encouraging",
  
     doodleType: "마커 낙서",
-    messageText: "놀이터 1",
+    messageText: "놀이터 35",
     year: 2025,
-    imageUrl: "image/놀이터/글씨_놀이터_성현동아아파트_1372 2.png",
+    imageUrl: "image/놀이터/D35.png",
   },
     {
     id: "83",
@@ -996,9 +1100,9 @@ const graffitiData = [
     messageType: "Encouraging",
  
     doodleType: "마커 낙서",
-    messageText: "놀이터 1",
+    messageText: "놀이터 36",
     year: 2025,
-    imageUrl: "image/놀이터/글씨_놀이터_성현동아아파트_1373 2.png",
+    imageUrl: "image/놀이터/D36.png",
   },
       {
     id: "84",
@@ -1008,9 +1112,9 @@ const graffitiData = [
     messageType: "Encouraging",
  
     doodleType: "마커 낙서",
-    messageText: "놀이터 1",
+    messageText: "놀이터 37",
     year: 2025,
-    imageUrl: "image/놀이터/글씨_놀이터_성현동아아파트_1374 2.png",
+    imageUrl: "image/놀이터/D37.png",
   },
       {
     id:  " 85",
@@ -1020,9 +1124,9 @@ const graffitiData = [
     messageType: "Encouraging",
  
     doodleType: "마커 낙서",
-    messageText: "놀이터 1",
+    messageText: "놀이터 38",
     year: 2025,
-    imageUrl: "image/놀이터/글씨_놀이터_성현동아아파트_1377 2.png",
+    imageUrl: "image/놀이터/D38.png",
   },
       {
     id: "86",
@@ -1032,9 +1136,9 @@ const graffitiData = [
     messageType: "Encouraging",
  
     doodleType: "마커 낙서",
-    messageText: "놀이터 1",
+    messageText: "놀이터 39",
     year: 2025,
-    imageUrl: "image/놀이터/글씨_놀이터_성현동아아파트_1384 2.png",
+    imageUrl: "image/놀이터/D39.png",
   },
       {
     id: "87",
@@ -1044,9 +1148,9 @@ const graffitiData = [
     messageType: "Encouraging",
  
     doodleType: "마커 낙서",
-    messageText: "놀이터 1",
+    messageText: "놀이터 40",
     year: 2025,
-    imageUrl: "image/놀이터/글씨_놀이터_성현동아아파트_1385 2.png",
+    imageUrl: "image/놀이터/D40.png",
   },
       {
     id:  "88",
@@ -1056,9 +1160,9 @@ const graffitiData = [
     messageType: "Encouraging",
  
     doodleType: "마커 낙서",
-    messageText: "놀이터 1",
+    messageText: "놀이터 41",
     year: 2025,
-    imageUrl: "image/놀이터/글씨_놀이터_성현동아아파트_1386 2.png",
+    imageUrl: "image/놀이터/D41.png",
   },
       {
     id: "89",
@@ -1068,9 +1172,9 @@ const graffitiData = [
     messageType: "Encouraging",
  
     doodleType: "마커 낙서",
-    messageText: "놀이터 1",
+    messageText: "놀이터 42",
     year: 2025,
-    imageUrl: "image/놀이터/글씨_놀이터_성현동아아파트_1387 2.png",
+    imageUrl: "image/놀이터/D42.png",
   },
     {
     id: "90",
@@ -1080,9 +1184,9 @@ const graffitiData = [
     messageType: "Encouraging",
  
     doodleType: "마커 낙서",
-    messageText: "놀이터 1",
+    messageText: "놀이터 43",
     year: 2025,
-    imageUrl: "image/놀이터/글씨_놀이터_성현동아아파트_1388 2.png",
+    imageUrl: "image/놀이터/D43.png",
   },
       {
     id: "91",
@@ -1092,9 +1196,177 @@ const graffitiData = [
     messageType: "Encouraging",
  
     doodleType: "마커 낙서",
-    messageText: "놀이터 1",
+    messageText: "놀이터 44",
     year: 2025,
-    imageUrl: "image/놀이터/글씨_놀이터_성현동아아파트_1389 2.png",
+    imageUrl: "image/놀이터/D44.png",
+  },
+      {
+    id: "91o",
+    city: "서울",
+    locationLabel: "성현동아아파트 놀이터",
+    coordinates: null,
+    messageType: "Encouraging",
+ 
+    doodleType: "마커 낙서",
+    messageText: "놀이터 45",
+    year: 2025,
+    imageUrl: "image/놀이터/D45.png",
+  },
+      {
+    id: "91n",
+    city: "서울",
+    locationLabel: "성현동아아파트 놀이터",
+    coordinates: null,
+    messageType: "Encouraging",
+ 
+    doodleType: "마커 낙서",
+    messageText: "놀이터 46",
+    year: 2025,
+    imageUrl: "image/놀이터/D46.png",
+  },
+      {
+    id: "91m",
+    city: "서울",
+    locationLabel: "성현동아아파트 놀이터",
+    coordinates: null,
+    messageType: "Encouraging",
+ 
+    doodleType: "마커 낙서",
+    messageText: "놀이터 47",
+    year: 2025,
+    imageUrl: "image/놀이터/D47.png",
+  },
+      {
+    id: "91l",
+    city: "서울",
+    locationLabel: "성현동아아파트 놀이터",
+    coordinates: null,
+    messageType: "Encouraging",
+ 
+    doodleType: "마커 낙서",
+    messageText: "놀이터 48",
+    year: 2025,
+    imageUrl: "image/놀이터/D48.png",
+  },
+      {
+    id: "91k",
+    city: "서울",
+    locationLabel: "성현동아아파트 놀이터",
+    coordinates: null,
+    messageType: "Encouraging",
+ 
+    doodleType: "마커 낙서",
+    messageText: "놀이터 49",
+    year: 2025,
+    imageUrl: "image/놀이터/D49.png",
+  },
+      {
+    id: "91j",
+    city: "서울",
+    locationLabel: "성현동아아파트 놀이터",
+    coordinates: null,
+    messageType: "Encouraging",
+ 
+    doodleType: "마커 낙서",
+    messageText: "놀이터 50",
+    year: 2025,
+    imageUrl: "image/놀이터/D50.png",
+  },
+      {
+    id: "91i",
+    city: "서울",
+    locationLabel: "성현동아아파트 놀이터",
+    coordinates: null,
+    messageType: "Encouraging",
+ 
+    doodleType: "마커 낙서",
+    messageText: "놀이터 51",
+    year: 2025,
+    imageUrl: "image/놀이터/D51.png",
+  },
+      {
+    id: "91g",
+    city: "서울",
+    locationLabel: "성현동아아파트 놀이터",
+    coordinates: null,
+    messageType: "Encouraging",
+ 
+    doodleType: "마커 낙서",
+    messageText: "놀이터 52",
+    year: 2025,
+    imageUrl: "image/놀이터/D52.png",
+  },
+      {
+    id: "91f",
+    city: "서울",
+    locationLabel: "성현동아아파트 놀이터",
+    coordinates: null,
+    messageType: "Encouraging",
+ 
+    doodleType: "마커 낙서",
+    messageText: "놀이터 53",
+    year: 2025,
+    imageUrl: "image/놀이터/D53.png",
+  },
+      {
+    id: "91e",
+    city: "서울",
+    locationLabel: "성현동아아파트 놀이터",
+    coordinates: null,
+    messageType: "Encouraging",
+ 
+    doodleType: "마커 낙서",
+    messageText: "놀이터 54",
+    year: 2025,
+    imageUrl: "image/놀이터/D54.png",
+  },
+      {
+    id: "91d",
+    city: "서울",
+    locationLabel: "성현동아아파트 놀이터",
+    coordinates: null,
+    messageType: "Encouraging",
+ 
+    doodleType: "마커 낙서",
+    messageText: "놀이터 55",
+    year: 2025,
+    imageUrl: "image/놀이터/D55.png",
+  },
+      {
+    id: "91c",
+    city: "서울",
+    locationLabel: "성현동아아파트 놀이터",
+    coordinates: null,
+    messageType: "Encouraging",
+ 
+    doodleType: "마커 낙서",
+    messageText: "놀이터 56",
+    year: 2025,
+    imageUrl: "image/놀이터/D56.png",
+  },
+      {
+    id: "91b",
+    city: "서울",
+    locationLabel: "성현동아아파트 놀이터",
+    coordinates: null,
+    messageType: "Encouraging",
+ 
+    doodleType: "마커 낙서",
+    messageText: "놀이터 57",
+    year: 2025,
+    imageUrl: "image/놀이터/D57.png",
+  },
+      {
+    id: "91a",
+    city: "서울",
+    locationLabel: "성현동아아파트 놀이터",
+    coordinates: null,
+    messageType: "Encouraging",
+ 
+    doodleType: "마커 낙서",
+    messageText: "놀이터 58",
+    year: 2025,
+    imageUrl: "image/놀이터/D58.png",
   },
       {
     id:  "92",
@@ -1106,7 +1378,7 @@ const graffitiData = [
     doodleType: "Spray graffiti",
     messageText: "기호",
     year: 2021,
-    imageUrl: "image/그래피티/그림_야외_2025-11-17-14-44-44 001.jpeg",
+    imageUrl: "image/그래피티/B18.jpeg",
   },
       {
     id: "93",
@@ -1118,7 +1390,7 @@ const graffitiData = [
     doodleType: "Spray graffiti",
     messageText: "대화: Talk",
     year: 2021,
-    imageUrl: "image/기타/IMG_2083.jpg",
+    imageUrl: "image/기타/C23.jpg",
   },
       {
     id: "94",
@@ -1130,7 +1402,7 @@ const graffitiData = [
     doodleType: "Spray graffiti",
     messageText: "눈웃음",
     year: 2021,
-    imageUrl: "image/기타/KakaoTalk_Photo_2025-11-23-14-01-34.jpeg",
+    imageUrl: "image/기타/C44.jpeg",
   },
       {
     id:  "95",
@@ -1142,7 +1414,7 @@ const graffitiData = [
     doodleType: "Spray graffiti",
     messageText: "나무아미타불",
     year: 2021,
-    imageUrl: "image/기타/그림_야외_8012 2.png",
+    imageUrl: "image/기타/C6.png",
   },
       {
     id: "96",
@@ -1154,7 +1426,7 @@ const graffitiData = [
     doodleType: "Spray graffiti",
     messageText: "□.....?",
     year: 2021,
-    imageUrl: "image/기타/그림_야외_1680 2.png",
+    imageUrl: "image/기타/C5.png",
   },
       {
     id:  "97",
@@ -1166,7 +1438,7 @@ const graffitiData = [
     doodleType: "Spray graffiti",
     messageText: "B",
     year: 2021,
-    imageUrl: "image/기타/그림_야외_1176 2.png",
+    imageUrl: "image/기타/C4.png",
   },
       {
     id: "98",
@@ -1178,7 +1450,7 @@ const graffitiData = [
     doodleType: "Spray graffiti",
     messageText: "^_^",
     year: 2021,
-    imageUrl: "image/기타/그림_야외_1174 2.png",
+    imageUrl: "image/기타/C3.png",
   },
       {
     id:  "99",
@@ -1190,7 +1462,7 @@ const graffitiData = [
     doodleType: "Spray graffiti",
     messageText: "코스트코 낙서",
     year: 2021,
-    imageUrl: "image/기타/그림_실내_송도코스트코_2507 2.png",
+    imageUrl: "image/기타/C2.png",
   },
       {
     id: "100",
@@ -1202,11 +1474,11 @@ const graffitiData = [
     doodleType: "붓글씨 낙서",
     messageText: "저거멋쪄",
     year: 2021,
-    imageUrl: "image/기타/그림_실내_서울대학교_4869 2.png",
+    imageUrl: "image/기타/C1.png",
   },
         {
     id:  "101",
-    city: "송도",
+    city: "서울",
     locationLabel: "Gongguan bridge pillar",
     coordinates: null,
     messageType: "Encouraging",
@@ -1214,7 +1486,7 @@ const graffitiData = [
     doodleType: "Spray graffiti",
     messageText: "메롱",
     year: 2021,
-    imageUrl: "image/그래피티/IMG_1997.png",
+    imageUrl: "image/그래피티/B20.png",
   },
       {
     id: "102",
@@ -1252,7 +1524,7 @@ const graffitiData = [
     messageText: "?끔가",
         theme: "뚱뚱글자",
     year: 2021,
-    imageUrl: "image/통통/IMG_2001.png",
+    imageUrl: "image/통통/J4.png",
   },
         {
     id:  "105",
@@ -1278,7 +1550,7 @@ const graffitiData = [
     messageText: "제발 분리수거 쫌",
         theme: "뚱뚱글자",
     year: 2021,
-    imageUrl: "image/통통/IMG_2003.png",
+    imageUrl: "image/통통/J3.png",
   },
         {
     id:  "107",
@@ -1291,7 +1563,7 @@ const graffitiData = [
     messageText: "먹고 싶어요",
         theme: "뚱뚱글자",
     year: 2021,
-    imageUrl: "image/통통/IMG_2004.png",
+    imageUrl: "image/통통/J2.png",
   },
       {
     id: "108",
@@ -1303,7 +1575,7 @@ const graffitiData = [
     doodleType: "Spray graffiti",
     messageText: "CCTV 1566-0423",
     year: 2021,
-    imageUrl: "image/공사장/IMG_2052 2.png",
+    imageUrl: "image/공사장/A14.png",
   },
         {
     id:  "109",
@@ -1315,7 +1587,7 @@ const graffitiData = [
     doodleType: "Spray graffiti",
     messageText: "도안",
     year: 2021,
-    imageUrl: "image/공사장/IMG_2053 2.png",
+    imageUrl: "image/공사장/A15.png",
   },
         {
     id:  "111",
@@ -1440,7 +1712,7 @@ const graffitiData = [
     doodleType: "Spray graffiti",
     messageText: "주유소 그래피티",
     year: 2021,
-     imageUrl: "image/그래피티/IMG_2136.jpg",
+     imageUrl: "image/그래피티/B23.jpg",
   },
             {
     id: "122",
@@ -1605,7 +1877,7 @@ const graffitiData = [
     doodleType: "Spray graffiti",
     messageText: "King South 4 nwave",
     year: 2021,
-     imageUrl: "image/그래피티/IMG_2178.jpg",
+     imageUrl: "image/그래피티/B25.jpg",
   },
             {
     id: "137",
