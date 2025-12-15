@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>grattifi.archive</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet" />
+</head>
+
+<body class="archive page-archive">
+  <header class="site-header">
+    <div class="logo-block">
+      <div class="logo-text">
+        <h1> 낙서 아카이브 | grattifi.archive</h1>
+      </div>
+    </div>
+    <nav class="main-nav">
+  <a href="index.html"
+     class="nav-link nav-link--icon"
+     aria-label="갤러리">
+    <img src="image/gallery.png" alt="갤러리" class="nav-icon" />
+  </a>
+  <a href="archive.html"
+     class="nav-link nav-link--icon nav-link--active"
+     aria-label="아카이브 리스트">
+    <img src="image/archive.png" alt="아카이브 리스트" class="nav-icon" />
+  </a>
+
+    <a
+      href="stories.html"
+      class="nav-link nav-link--icon"
+      aria-label="이야기"
+    >
+      <img src="image/stories.png" alt="이야기" class="nav-icon" />
+    </a>
+
+</nav>
+
+  </header>
+
+  <main class="archive-main">
+    <section class="archive-header">
+      <div>
+        <h2>Archive</h2>
+      </div>
+      <div class="archive-count">
+        Total: <span id="archiveTotalCount">0</span>
+      </div>
+    </section>
+
+    <section class="archive-filters">
+      
+      <div class="filter-group">
+        <label for="filterMessageType">메세지</label>
+        <select id="filterMessageType">
+          <option value="all">전체</option>
+        </select>
+      </div>
+
+      <div class="filter-group">
+        <label for="filterDoodleType">낙서 재료</label>
+        <select id="filterDoodleType">
+          <option value="all">전체</option>
+        </select>
+      </div>
+
+      <!-- ⭐ 새로 추가된 테마 필터 -->
+      <div class="filter-group">
+        <label for="filterTheme">테마</label>
+        <select id="filterTheme">
+          <option value="all">전체</option>
+        </select>
+      </div>
+
+      <div class="filter-group">
+        <label for="filterCity">도시</label>
+        <select id="filterCity">
+          <option value="all">전체</option>
+        </select>
+      </div>
+    </section>
+
+    <section class="archive-table-wrap">
+      <table class="archive-table">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>도시</th>
+            <th>제목</th>
+            <th>메세지</th>
+            <th>낙서 재료</th>
+            <th>위치</th>
+            <th>년도</th>
+          </tr>
+        </thead>
+        <tbody id="archiveTableBody">
+          <!-- JS will inject rows -->
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+
+  <!-- Detail modal for archive page -->
+  <div id="detailModal" class="modal">
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal-dialog">
+      <button class="modal-close" data-close-modal>&times;</button>
+      <div class="modal-layout">
+        <div class="modal-image-wrap">
+          <img id="modalImage" src="" alt="" />
+        </div>
+
+        <div class="modal-info">
+          <h3 id="modalTitle"></h3>
+          <p class="modal-city" id="modalCity"></p>
+
+          <div class="meta-tags" id="modalTags"></div>
+
+          <p class="modal-description" id="modalDescription"></p>
+
+          <!-- 메타 정보: 도시(위), 세부 위치, 년도 순으로 간단히 노출 -->
+          <p class="modal-meta-line" id="modalLocation"></p>
+          <p class="modal-meta-line" id="modalYear"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="footer-left">타이포그래피디자인2</div>
+    <div class="footer-right">SeHyunKwon2025, @realnoidea</div>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="archive.js"></script>
+
+</body>
+</html>

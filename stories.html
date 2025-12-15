@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <title>grattifi.archive.stories</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="page-stories">
+  <header class="site-header">
+    <div class="logo-block">
+      <div class="logo-text">
+        <h1> 낙서 아카이브 | grattifi.archive</h1>
+      </div>
+    </div>
+
+    <nav class="main-nav">
+      <a
+        href="index.html"
+        class="nav-link nav-link--icon"
+        aria-label="갤러리"
+      >
+        <img src="image/gallery.png" alt="갤러리" class="nav-icon" />
+      </a>
+      <a
+        href="archive.html"
+        class="nav-link nav-link--icon"
+        aria-label="아카이브 리스트"
+      >
+        <img src="image/archive.png" alt="아카이브 리스트" class="nav-icon" />
+      </a>
+<a
+  href="stories.html"
+  class="nav-link nav-link--icon"
+  aria-label="이야기"
+>
+  <img src="image/stories.png" alt="이야기" class="nav-icon" />
+</a>
+
+    </nav>
+  </header>
+
+  <main class="stories-main">
+    <section class="stories-shell">
+      <!-- 1) Overview: 6개 스토리 카드 (3x3 격자 / 겹쳐진 사진 뭉치) -->
+      <section id="storiesOverview" class="stories-overview is-visible">
+        <div class="stories-grid">
+          <!-- JS가 .story-card 들을 채워 넣음 -->
+        </div>
+      </section>
+
+      <!-- 2) Detail: 선택된 하나의 스토리 (5 x N 격자) -->
+      <section id="storyDetail" class="story-detail is-hidden">
+        <!-- 상단 오른쪽에만 back 버튼, 그 외 텍스트 없음 -->
+        <button type="button" id="storyBackButton" class="story-back-button">
+          ✕
+        </button>
+
+        <!-- 이미지 그리드 -->
+        <div class="story-images-grid" id="detailImagesGrid">
+          <!-- JS가 이미지 채움 -->
+        </div>
+      </section>
+
+      <!-- 3) overview / detail 공통 하단 텍스트 영역 -->
+      <section class="story-text-strip">
+        <!-- 왼쪽: 제목/부제 영역 -->
+        <div class="story-text-title">
+          <p class="story-strip-kicker" id="stripKicker">Stories / 이야기</p>
+          <h2 class="story-strip-title" id="stripTitle">
+            사라지지 않은 말들을 따라 걷기
+          </h2>
+          <p class="story-strip-subtitle" id="storyStripSubtitle">
+            아카이브의 테마들 중 여섯 개를 골라, 그 공간을 다시 걸어보며 기록한 이야기들입니다.
+          </p>
+        </div>
+
+        <!-- 오른쪽: 세 개의 문단 -->
+        <div class="story-text-col">
+          <p id="storyText1"></p>
+        </div>
+        <div class="story-text-col">
+          <p id="storyText2"></p>
+        </div>
+        <div class="story-text-col">
+          <p id="storyText3"></p>
+        </div>
+      </section>
+    </section>
+  </main>
+
+  <!-- ✅ Detail Modal (same structure as archive) -->
+  <section class="modal" id="detailModal" aria-hidden="true">
+    <div class="modal-backdrop" data-close-modal></div>
+
+    <div class="modal-dialog" role="dialog" aria-modal="true">
+      <button class="modal-close" type="button" data-close-modal aria-label="Close">×</button>
+
+      <div class="modal-layout">
+        <div class="modal-image-wrap">
+          <img id="modalImage" alt="" />
+        </div>
+
+        <aside class="modal-info">
+          <div class="modal-info-top">
+            <h3 id="modalTitle"></h3>
+          </div>
+
+          <div class="modal-info-bottom">
+            <div class="meta-tags" id="modalTags"></div>
+            <p class="modal-city" id="modalCity"></p>
+
+            <p class="modal-description" id="modalDescription"></p>
+
+            <dl class="meta-list">
+              <div>
+                <dt>세부 위치</dt>
+                <dd id="modalLocation"></dd>
+              </div>
+              <div>
+                <dt>년도</dt>
+                <dd id="modalYear"></dd>
+              </div>
+            </dl>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+    <footer class="site-footer">
+    <div class="footer-left">타이포그래피디자인2</div>
+    <div class="footer-right">SeHyunKwon2025, @realnoidea</div>
+  </footer>
+
+  <!-- data.js 먼저 불러와야 함 -->
+  <script src="data.js"></script>
+  <script src="stories.js"></script>
+</body>
+</html>
