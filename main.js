@@ -170,7 +170,7 @@ const topPercent = rand(SAFE_TOP, maxTop);
 
       const img = document.createElement("img");
       img.className = "thumb-img";
-      img.src = item.imageUrl;
+      img.src = encodeURI(item.imageUrl);
       img.alt = item.messageText || `Graffiti in ${item.city}`;
 
       card.appendChild(img);
