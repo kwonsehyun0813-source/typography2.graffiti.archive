@@ -170,7 +170,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const h = modalImage.naturalHeight;
         if (w && h) modalLayout.classList.add(w >= h ? "layout-landscape" : "layout-portrait");
       };
-      modalImage.src = item.imageUrl;
+      modalImage.src = encodeURI(item.imageUrl);
       modalImage.alt = item.messageText || "";
     }
 
